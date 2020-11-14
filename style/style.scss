@@ -27,9 +27,7 @@ html {
     overflow: hidden;
     -webkit-animation: marquee 40s linear infinite;
     animation: marquee 40s linear infinite;
-    @media (max-width: 768px){
-        animation: none;
-    }
+    
 }
 
 .marquee span {
@@ -101,8 +99,8 @@ html {
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
-            width: 60%;
-
+            width: 100%;
+            padding: 0;
 
             &--link {
                 list-style: none;

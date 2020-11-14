@@ -26,13 +26,6 @@ html {
   animation: marquee 40s linear infinite;
 }
 
-@media (max-width: 768px) {
-  .marquee .lyrics {
-    -webkit-animation: none;
-            animation: none;
-  }
-}
-
 .marquee span {
   font-size: 16px;
   padding-left: 10px;
@@ -128,7 +121,8 @@ html {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 60%;
+  width: 100%;
+  padding: 0;
 }
 
 .container-top-menu--link {
