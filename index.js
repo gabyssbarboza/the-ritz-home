@@ -3,19 +3,23 @@
     var links = [
         {
             "name":  "home",
-            "href": "choose-side"
+            "href": "https://gabyssbarboza.github.io/the-ritz-home/"
         },
         {
             "name":  "sobre",
-            "href": "personagens"
+            "href": "https://gabyssbarboza.github.io/the-ritz-sobre/"
         },
         {
             "name":  "trabalhe conosco",
-            "href": "planetas"
+            "href": "https://gabyssbarboza.github.io/the-ritz-trabalhe-conosco/"
         },
         {
             "name":  "nossas atrações",
-            "href": "planetas"  
+            "href": "https://gabyssbarboza.github.io/the-ritz-parks/"  
+        },
+        {
+            "name":  "localização",
+            "href": "https://gabyssbarboza.github.io/the-ritz-localizacao/"  
         }
     ];
 
@@ -27,7 +31,7 @@
         for(let i = 0; i < items.length; i++){
             var li = document.createElement("li");
             var link = document.createElement("a");
-            link.href = "#" + items[i].href;
+            link.href =  items[i].href;
             link.innerText = items[i].name;
             li.appendChild(link);
             li.classList = "container-top-menu--link"

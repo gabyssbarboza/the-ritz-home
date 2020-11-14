@@ -141,7 +141,6 @@ html {
   display: -ms-flexbox;
   display: flex;
   background-color: transparent;
-  padding: 0.625rem;
   text-transform: uppercase;
   font-size: 0.625rem;
 }
