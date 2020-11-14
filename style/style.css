@@ -4,7 +4,6 @@ html {
   max-height: 100%;
   padding: 0;
   margin: 0;
-  border: 5px solid black;
   overflow: hidden;
 }
 
@@ -71,7 +70,7 @@ html {
 
 .container-bottom-image {
   background-image: url(./park.png);
-  height: 250px;
+  height: 315px;
   background-position: right;
   background-repeat-y: no-repeat;
 }
@@ -86,8 +85,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #fff), color-stop(80%, #000));
-  background: linear-gradient(to bottom, #fff 80%, #000 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(87%, #fff), color-stop(87%, #000));
+  background: linear-gradient(to bottom, #fff 87%, #000 87%);
 }
 
 .container-top {
@@ -106,6 +105,18 @@ html {
   position: absolute;
   left: 1px;
   width: 25%;
+}
+
+.container-top-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.container-top-subtitle {
+  font-family: 'Xanh Mono', monospace;
 }
 
 .container-top-menu {
