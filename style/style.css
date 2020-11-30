@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
 body,
 html {
   max-width: 100%;
@@ -29,6 +30,138 @@ html {
 .marquee span {
   font-size: 16px;
   padding-left: 10px;
+}
+
+@-webkit-keyframes color-text-flow-keys {
+  0% {
+    color: #d65c97;
+  }
+  5% {
+    color: #5cd666;
+  }
+  10% {
+    color: #a55cd6;
+  }
+  15.0% {
+    color: #5c7cd6;
+  }
+  20% {
+    color: #d65c7a;
+  }
+  25% {
+    color: #81d65c;
+  }
+  30.0% {
+    color: #835cd6;
+  }
+  35% {
+    color: #685cd6;
+  }
+  40% {
+    color: #5c9dd6;
+  }
+  45% {
+    color: #5cd670;
+  }
+  50% {
+    color: #d6625c;
+  }
+  55.0% {
+    color: #d6835c;
+  }
+  60.0% {
+    color: #d6605c;
+  }
+  65% {
+    color: #be5cd6;
+  }
+  70% {
+    color: #5c8dd6;
+  }
+  75% {
+    color: #95d65c;
+  }
+  80% {
+    color: #d69d5c;
+  }
+  85.0% {
+    color: #d65c81;
+  }
+  90% {
+    color: #5cd666;
+  }
+  95% {
+    color: #d67e5c;
+  }
+  100% {
+    color: #64d65c;
+  }
+}
+
+@keyframes color-text-flow-keys {
+  0% {
+    color: #d65c97;
+  }
+  5% {
+    color: #5cd666;
+  }
+  10% {
+    color: #a55cd6;
+  }
+  15.0% {
+    color: #5c7cd6;
+  }
+  20% {
+    color: #d65c7a;
+  }
+  25% {
+    color: #81d65c;
+  }
+  30.0% {
+    color: #835cd6;
+  }
+  35% {
+    color: #685cd6;
+  }
+  40% {
+    color: #5c9dd6;
+  }
+  45% {
+    color: #5cd670;
+  }
+  50% {
+    color: #d6625c;
+  }
+  55.0% {
+    color: #d6835c;
+  }
+  60.0% {
+    color: #d6605c;
+  }
+  65% {
+    color: #be5cd6;
+  }
+  70% {
+    color: #5c8dd6;
+  }
+  75% {
+    color: #95d65c;
+  }
+  80% {
+    color: #d69d5c;
+  }
+  85.0% {
+    color: #d65c81;
+  }
+  90% {
+    color: #5cd666;
+  }
+  95% {
+    color: #d67e5c;
+  }
+  100% {
+    color: #64d65c;
+  }
 }
 
 @-webkit-keyframes marquee {
@@ -106,10 +239,129 @@ html {
   margin: 0;
   text-align: center;
   border-bottom: 1px solid black;
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -19.2s;
+  animation-delay: -19.2s;
+}
+
+.container-top-title span:nth-of-type(1) {
+  font-size: 5rem;
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -12.2s;
+  animation-delay: -1.2s;
+}
+
+.container-top-title span:nth-of-type(2) {
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -12.2s;
+  animation-delay: -5.2s;
+}
+
+.container-top-title span:nth-of-type(3) {
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -12.2s;
+  animation-delay: -10.2s;
+}
+
+.container-top-title span:nth-of-type(4) {
+  font-size: 5rem;
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -12.2s;
+  animation-delay: -17.2s;
+}
+
+.container-top-title span:nth-of-type(5) {
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -12.2s;
+  animation-delay: -12.2s;
+}
+
+.container-top-title span:nth-of-type(6) {
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -12.2s;
+  animation-delay: -8.2s;
+}
+
+.container-top-title span:nth-of-type(7) {
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: -12.2s;
+  animation-delay: -2.2s;
 }
 
 .container-top-subtitle {
-  font-family: 'Xanh Mono', monospace;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-top-menu {
@@ -155,10 +407,10 @@ html {
   position: relative;
   display: block;
   padding: 4px 0;
-  font-family: Lato, sans-serif;
   color: #4a4b4b;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 10px;
@@ -180,10 +432,34 @@ html {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2.2s;
+  animation-delay: 1.2s;
 }
 
 .container-top-menu--link a:hover {
   color: #085e64;
+  -webkit-animation-name: color-text-flow-keys;
+  animation-name: color-text-flow-keys;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
 .container-top-menu--link a:hover::after {
