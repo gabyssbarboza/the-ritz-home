@@ -11,7 +11,7 @@
         },
         {
             "name":  "trabalhe conosco",
-            "href": "https://gabyssbarboza.github.io/the-ritz-trabalhe-conosco/"
+            "href": "https://gabyssbarboza.github.io/trabalhe-conosco.html"
         },
         {
             "name":  "nossas atrações",
