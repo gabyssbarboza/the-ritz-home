@@ -19,7 +19,7 @@
         },
         {
             "name":  "localização",
-            "href": "https://gabyssbarboza.github.io/the-ritz/localizacao/index.html"  
+            "href": "https://gabyssbarboza.github.io/the-ritz-home/localizacao/index.html"  
         }
     ];
 
