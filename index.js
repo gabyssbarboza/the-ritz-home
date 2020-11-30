@@ -11,15 +11,15 @@
         },
         {
             "name":  "trabalhe conosco",
-            "href": "https://gabyssbarboza.github.io/the-ritz-home/trabalhe-conosco.html"
+            "href": "https://gabyssbarboza.github.io/the-ritz-home/trabalhe-conosco/index.html"
         },
         {
             "name":  "nossas atrações",
-            "href": "https://gabyssbarboza.github.io/the-ritz-parks/"  
+            "href": "https://gabyssbarboza.github.io/the-ritz-home/atracoes/index.html"  
         },
         {
             "name":  "localização",
-            "href": "https://gabyssbarboza.github.io/the-ritz-localizacao/"  
+            "href": "https://gabyssbarboza.github.io/the-ritz/localizacao/index.html"  
         }
     ];
 

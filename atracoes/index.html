@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atrações</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Demo styles -->
+<style>
+  html,
+ 
+  body {
+    background: rgb(240, 239, 239);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 80%;
+    /* height: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      /* height: 300px; */
+      display: flex;
+      align-items: center;
+
+      
+
+    }
+    img{
+      width: 600px;
+    }
+
+
+  /* .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  } */
+/* 
+  .gallery-top {
+    height: 80%;
+    width: 100%;
+  } */
+
+  .gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .gallery-thumbs .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+</style>
+</head>
+
+<body>
+<!-- Swiper -->
+
+
+<h1 style="text-align: center;">Atrações</h1>
+<p style="text-align: center;">Nosso parque conta com mais de 250 atrações. Confira abaixo:</p>
+<div class="swiper-container gallery-top">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <img src="https://images.pexels.com/photos/1782131/pexels-photo-1782131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit sint in ducimus exercitationem vero repudiandae iste, modi porro, odit, ullam neque aut a? Cupiditate ipsum numquam amet dolorum delectus!/p>
+    </div>
+
+    <div class="swiper-slide">
+      <img src="https://images.pexels.com/photos/3008103/pexels-photo-3008103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorem sed placeat omnis accusamus. Sapiente labore libero eos non atque repellat debitis nam laborum? Asperiores aliquid natus pariatur beatae velit!</p>
+    </div>
+
+    <div class="swiper-slide">
+      <img src="https://images.pexels.com/photos/2881201/pexels-photo-2881201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quod eligendi iusto inventore harum libero culpa fugit laborum iure, voluptates, quisquam rerum, dolorum voluptas. Illo consequuntur cupiditate assumenda hic asperiores.</p>
+    </div>
+
+    <div class="swiper-slide">
+      <img src="https://images.pexels.com/photos/1634639/pexels-photo-1634639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, a! Consequuntur, excepturi, eius sint nulla ut aliquid impedit quasi accusamus qui perspiciatis alias eligendi est error dolores architecto earum quia?</p>
+    </div>
+
+    <div class="swiper-slide">
+      <img src=https://images.pexels.com/photos/1407881/pexels-photo-1407881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim culpa incidunt iure quod animi velit sequi officiis! Sint fugit beatae accusamus qui in obcaecati! Voluptatum non odio accusantium quisquam cum?</p>
+    </div>
+  </div>
+  <!-- Add Arrows -->
+  <div class="swiper-button-next swiper-button-white"></div>
+  <div class="swiper-button-prev swiper-button-white"></div>
+</div>
+<!-- <div class="swiper-container gallery-thumbs">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image:url(./nature1.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(./nature1.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(./nature1.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(./nature1.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(./nature1.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(./nature1.jpg)"></div>
+
+   
+  </div> -->
+</div>
+
+<!-- Swiper JS -->
+<script src="../package/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+ 
+  var galleryTop = new Swiper('.gallery-top', {
+    spaceBetween: 10,
+    slidesPerView: 1,
+    // centeredSlides: true,
+    loop: true,
+    // effect: 'coverflow',
+    // freeMode: true,
+    // watchSlidesVisibility: true,
+    // watchSlidesProgress: true,
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+   
+  });
+</script>
+
+
+</body>
+
+</html>
