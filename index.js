@@ -7,7 +7,7 @@
         },
         {
             "name":  "sobre",
-            "href": "https://gabyssbarboza.github.io/the-ritz-sobre/"
+            "href": "https://gabyssbarboza.github.io/the-ritz-home/sobre/index.html"
         },
         {
             "name":  "trabalhe conosco",
