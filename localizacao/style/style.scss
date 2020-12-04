@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
-$font-family: 'Montserrat',sans-serif;
+$font-family: 'Montserrat',
+sans-serif;
 
 
 * {
@@ -8,9 +9,80 @@ $font-family: 'Montserrat',sans-serif;
     padding: 0;
 }
 
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes color-text-flow-keys {
+    0% {
+      color: #d65c97;
+    }
+    5% {
+      color: #5cd666;
+    }
+    10% {
+      color: #a55cd6;
+    }
+    15.0% {
+      color: #5c7cd6;
+    }
+    20% {
+      color: #d65c7a;
+    }
+    25% {
+      color: #81d65c;
+    }
+    30.0% {
+      color: #835cd6;
+    }
+    35% {
+      color: #685cd6;
+    }
+    40% {
+      color: #5c9dd6;
+    }
+    45% {
+      color: #5cd670;
+    }
+    50% {
+      color: #d6625c;
+    }
+    55.0% {
+      color: #d6835c;
+    }
+    60.0% {
+      color: #d6605c;
+    }
+    65% {
+      color: #be5cd6;
+    }
+    70% {
+      color: #5c8dd6;
+    }
+    75% {
+      color: #95d65c;
+    }
+    80% {
+      color: #d69d5c;
+    }
+    85.0% {
+      color: #d65c81;
+    }
+    90% {
+      color: #5cd666;
+    }
+    95% {
+      color: #d67e5c;
+    }
+    100% {
+      color: #64d65c;
+    }
+  }
+
 body {
     align-items: center;
-    background: #ffffff;
     color: black;
     // display: grid;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,34 +91,106 @@ body {
     // height: 100vh;
     overflow: hidden;
     display: flex;
+    background-image: url(/style/park.png);
+    background-repeat: no-repeat ;
     flex-direction: column;
+    background-position: left;
+    background-repeat-x: repeat;
     justify-items: center;
     weight: 100vw;
 }
 
-svg{
+svg {
     position: relative;
-    top: -3rem;
+    top: -6rem;
 }
 
 
-.container{
-    margin-top: -93px;
+.container {
+    // margin-top: -93px;
     display: flex;
-    height: 20%;
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: $font-family;
+    width: 100%;
 
-    p{
-        font-size: 2rem;
+    &-maps {
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
 
-    @media(max-width: 991px){
+    &-title{
+        font-size: 2.5rem;
+        margin-bottom: 52px;
+        text-transform: uppercase;
+        font-family: 'Open Sans Condensed', sans-serif;
+        span:nth-of-type(1){
+            -webkit-animation-name: color-text-flow-keys;
+            animation-name: color-text-flow-keys;
+    -webkit-animation-duration: 50s;
+            animation-duration: 50s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            -webkit-animation-delay: -12.2s;
+      animation-delay: -1.2s;
+        }
+
+        span:nth-of-type(2){
+            -webkit-animation-name: color-text-flow-keys;
+            animation-name: color-text-flow-keys;
+    -webkit-animation-duration: 50s;
+            animation-duration: 50s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            -webkit-animation-delay: -12.2s;
+      animation-delay: -1.2s;
+        }
+
+        span:nth-of-type(3){
+            -webkit-animation-name: color-text-flow-keys;
+            animation-name: color-text-flow-keys;
+    -webkit-animation-duration: 50s;
+            animation-duration: 50s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            -webkit-animation-delay: -12.2s;
+      animation-delay: -1.2s;
+        }
+
+
+    }
+
+    &-info {
+        width: 50%; 
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    @media(max-width: 991px) {
         flex-direction: column;
         height: 100%;
 
-        img{
+        img {
             width: 90%;
         }
 
@@ -54,11 +198,11 @@ svg{
     }
 }
 
-img{
+img {
     width: 42%;
 }
 
-footer{
+footer {
     background-color: black;
     width: 100%;
     display: flex;
@@ -68,7 +212,8 @@ footer{
     align-items: center;
     justify-content: center;
     font-family: $font-family;
-    p{
+
+    p {
         margin: 0;
     }
 }
