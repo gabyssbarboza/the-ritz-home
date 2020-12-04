@@ -29,6 +29,86 @@ cite {
   color: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
 }
 
+.container-top-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  z-index: 20000;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .container-top-menu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.container-top-menu--link {
+  list-style: none;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+@media (max-width: 768px) {
+  .container-top-menu--link {
+    margin: 0rem;
+  }
+}
+
+.container-top-menu--link a {
+  position: relative;
+  display: block;
+  padding: 4px 0;
+  color: #4a4b4b;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.container-top-menu--link a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #000000;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.container-top-menu--link a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
 .container-all {
   color: black;
 }
