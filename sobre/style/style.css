@@ -21,14 +21,16 @@ main {
 }
 
 cite {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0 auto;
   font-style: inherit;
   color: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
 }
 
 .container-all {
-  color: #747070;
+  color: black;
 }
 
 .container-all p {
@@ -37,6 +39,10 @@ cite {
 
 .container-all span {
   font-family: "Montserrat", sans-serif;
+}
+
+.container-quotes {
+  text-align: center;
 }
 
 .container-image {
@@ -57,7 +63,7 @@ cite {
 }
 
 .container-image img {
-  width: 35%;
+  width: 60%;
 }
 
 @media (max-width: 991px) {
@@ -66,8 +72,45 @@ cite {
   }
 }
 
+.container-text {
+  width: 60%;
+  margin: 3rem auto;
+  font-size: 22px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 991px) {
+  footer {
+    font-size: 11px;
+  }
+}
+
+footer span {
+  margin: 0;
+}
+
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 52px;
   text-align: center;
   text-transform: uppercase;
