@@ -2,14 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 body {
   margin: 0;
-  background: #1A1A1A;
-  padding: 0 4em;
+  background: #fffdfd;
+  padding: 0 2em;
 }
 
 main {
   min-width: 300px;
   max-width: 500px;
   margin: auto;
+}
+
+@media (max-width: 991px) {
+  main {
+    width: 85%;
+    max-width: 100%;
+    min-width: 70%;
+  }
 }
 
 cite {
@@ -20,7 +28,7 @@ cite {
 }
 
 .container-all {
-  color: white;
+  color: #747070;
 }
 
 .container-all p {
@@ -31,13 +39,37 @@ cite {
   font-family: "Montserrat", sans-serif;
 }
 
-img {
-  width: 40%;
+.container-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-image img {
+  width: 35%;
+}
+
+@media (max-width: 991px) {
+  .container-image img {
+    width: 100%;
+  }
 }
 
 h1 {
   font-size: 2.5rem;
   margin-bottom: 52px;
+  text-align: center;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -46,16 +78,16 @@ p {
   font-size: 1em;
   line-height: 1.75em;
   border-top: 3px solid;
-  -o-border-image: linear-gradient(to right, #b1b0b5 0%, #1a997d 100%);
-     border-image: -webkit-gradient(linear, left top, right top, from(#b1b0b5), to(#1a997d));
-     border-image: linear-gradient(to right, #b1b0b5 0%, #1a997d 100%);
+  -o-border-image: linear-gradient(to right, #6e55d1 0%, #11a19a 100%);
+     border-image: -webkit-gradient(linear, left top, right top, from(#6e55d1), to(#11a19a));
+     border-image: linear-gradient(to right, #6e55d1 0%, #11a19a 100%);
   border-image-slice: 1;
   border-width: 3px;
   margin: 0;
   padding: 40px;
   counter-increment: section;
   position: relative;
-  color: #cecece;
+  color: #000000;
 }
 
 p:before {
@@ -65,10 +97,10 @@ p:before {
   padding: 10px;
   height: 1.25em;
   width: 1.25em;
-  background-color: #cecece;
+  background-color: #000000;
   text-align: center;
   line-height: 1.25em;
-  color: #000000;
+  color: #807373;
   font-size: 1em;
 }
 

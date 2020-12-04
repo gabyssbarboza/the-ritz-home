@@ -38,11 +38,6 @@ body, html {
   animation-delay: -19.2s;
 }
 
-.swiper-button-next {
-  position: absolute !important;
-  top: 30px !important;
-}
-
 @-webkit-keyframes color-text-flow-keys {
   0% {
     color: #d65c97;
