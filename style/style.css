@@ -196,14 +196,15 @@ html {
 
 .container-bottom-image {
   background-image: url(./park.png);
-  height: 315px;
+  height: 340px;
   background-position: right;
   background-repeat-y: no-repeat;
+  margin-bottom: -3rem;
 }
 
 @media (max-width: 991px) {
   .container-bottom-image {
-    height: 250px;
+    height: 310px;
   }
 }
 
@@ -244,7 +245,6 @@ html {
   font-size: 4rem;
   margin: 0;
   text-align: center;
-  border-bottom: 1px solid black;
   -webkit-animation-name: color-text-flow-keys;
   animation-name: color-text-flow-keys;
   -webkit-animation-duration: 50s;

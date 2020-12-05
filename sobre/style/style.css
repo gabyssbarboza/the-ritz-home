@@ -4,12 +4,14 @@ body {
   margin: 0;
   background: #fffdfd;
   padding: 0 2em;
+  text-align: justify;
 }
 
 main {
   min-width: 300px;
   max-width: 500px;
   margin: auto;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 991px) {
@@ -17,6 +19,7 @@ main {
     width: 85%;
     max-width: 100%;
     min-width: 70%;
+    margin-bottom: 3rem;
   }
 }
 
@@ -27,6 +30,12 @@ cite {
   margin: 0 auto;
   font-style: inherit;
   color: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+}
+
+@media (max-width: 991px) {
+  cite{
+    font-size: 1rem;
+  }
 }
 
 .container-top-menu {
@@ -158,6 +167,13 @@ cite {
   font-size: 22px;
 }
 
+@media (max-width: 991px) {
+  .container-text{
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
 footer {
   background-color: black;
   width: 100%;
@@ -220,10 +236,11 @@ p:before {
   padding: 10px;
   height: 1.25em;
   width: 1.25em;
-  background-color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
   text-align: center;
   line-height: 1.25em;
-  color: #807373;
+  color: #292626;
   font-size: 1em;
 }
 

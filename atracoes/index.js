@@ -1,30 +1,9 @@
-var swiper = new Swiper('.swiper-container', {
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: 'auto',
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-  
-  },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  thumbs: {
-    swiper: galleryThumbs
-  },
-
-});
-
-
-
-var galleryThumbs = new Swiper('.gallery-thumbs', {
-  spaceBetween: 10,
-  slidesPerView: 4,
-  freeMode: true,
-  watchSlidesVisibility: true,
-  watchSlidesProgress: true,
+$('.swiper-wrapper').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  dots: true
+  // nextArrow: '<button type="button" class="slick-next"><span style="font-size:20px;">&#8702;</span></button>',
+  // prevArrow: '<button type="button" class="slick-prev"><span style="font-size:20px;">&#8701;</span></button>',
 });
